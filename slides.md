@@ -18,24 +18,87 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
-# layout: statement
+layout: statement
+class: font-mono
 ---
 
 # NeoVim
 # An introduction
 
 ---
+layout: statement
 class: font-mono
 ---
 
-But first...what is **vim**?
-
----
-class: font-mono
----
-
-"Text editor with mnemonic motions"
+# (<span class="color-blue">Neo</span>)(<span class="color-green">Vim</span>)
 
 ---
 class: font-mono
 ---
+
+# The **Vim** part
+
+- Text editor
+  - 🧠 with **mnemonic** keyboard shortcuts
+  - ⚡ providing a **fast** editing experience
+  - and a steep learning curve :)
+- It's not
+  - all-in-one software like emacs
+  - IDE
+    - even though pepole like to try to make it so
+- [(but can be used to solve advent of code problems...)](https://www.youtube.com/watch?v=P7yTg1SdNNQ&ab_channel=denvaar)
+
+<style>
+strong {
+  @apply color-green
+}
+</style>
+
+---
+class: font-mono
+---
+
+# The **Neo** part
+
+- On top of vim
+- Configuration via Lua
+  - Simple to read and write
+  - Fully fledged programming language
+- Modern language stuff like auto completion, go to definition, syntax highlighting...
+  - Almost anything you can find in VS Code
+- (for me) Fuzzy search of files, file contents, key maps, commands, help docs
+  - (via a plugin)
+
+<style>
+strong {
+  @apply color-blue
+}
+</style>
+
+---
+class: font-mono
+---
+
+# Why not stick to VS Code and avoid headaches?
+- True, it offers everything a developer needs
+- Can also be configured in many aspects
+- ...but I want more...
+- (...and it's slow to open)
+
+---
+class: font-mono
+---
+
+# **My** editor
+
+- I want to add custom functionality if needed
+- I want _speed_
+- I want to have control on more things that happen while developing
+- I want to use the mouse as less as humanly possible
+
+
+<style>
+strong {
+  @apply color-blue
+}
+</style>
