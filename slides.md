@@ -6,7 +6,7 @@ theme: apple-basic
 # like them? see https://unsplash.com/collections/94734566/slidev
 # background: https://cover.sli.dev
 # some information about your slides, markdown enabled
-title: Welcome to Slidev
+title: 'Neovim: An introduction'
 # apply any unocss classes to the current slide
 # class: font-mono
 # https://sli.dev/custom/highlighters.html
@@ -66,7 +66,7 @@ class: font-mono
   - Fully fledged programming language
 - Modern language stuff like auto completion, go to definition, syntax highlighting...
   - Almost anything you can find in VS Code
-- (for me) Fuzzy search of files, file contents, key maps, commands, help docs
+- (for me) Fuzzy search of files, file contents, help docs
   - (via a plugin)
 
 <style>
@@ -91,14 +91,20 @@ class: font-mono
 
 # **My** editor
 
-- I want to add custom functionality if needed
-- I want _speed_
-- I want to have control on more things that happen while developing
-- I want to use the mouse as less as humanly possible
-
+- I want...
+    - _speed of typing_
+    - to use the mouse as less as possible
+    - to add custom functionality 
+    - to have control on more things that happen while developing
 
 <style>
 strong {
   @apply color-blue
 }
 </style>
+
+---
+class: font-mono
+---
+
+# Demo time
